@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA18E7D61DA548D0002583F0 /* isetan_shinjuku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA18E7D51DA548D0002583F0 /* isetan_shinjuku.jpg */; };
 		CAA599581D9D658800BB5DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA599571D9D658800BB5DCD /* main.m */; };
 		CAA5995B1D9D658800BB5DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA5995A1D9D658800BB5DCD /* AppDelegate.m */; };
 		CAA5995E1D9D658800BB5DCD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA5995D1D9D658800BB5DCD /* FirstViewController.m */; };
@@ -16,6 +17,9 @@
 		CAA599691D9D658800BB5DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA599671D9D658800BB5DCD /* LaunchScreen.storyboard */; };
 		CAA599741D9D658800BB5DCD /* Depart_infoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA599731D9D658800BB5DCD /* Depart_infoTests.m */; };
 		CAA5997F1D9D658800BB5DCD /* Depart_infoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA5997E1D9D658800BB5DCD /* Depart_infoUITests.m */; };
+		CAA5998F1D9D65D900BB5DCD /* EventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA5998D1D9D65D900BB5DCD /* EventCell.m */; };
+		CAA599901D9D65D900BB5DCD /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA5998E1D9D65D900BB5DCD /* EventCell.xib */; };
+		CAA599941D9D66D200BB5DCD /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA599931D9D66D200BB5DCD /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA18E7D51DA548D0002583F0 /* isetan_shinjuku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = isetan_shinjuku.jpg; sourceTree = "<group>"; };
 		CAA599531D9D658700BB5DCD /* Depart-info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Depart-info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA599571D9D658800BB5DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CAA599591D9D658800BB5DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +59,12 @@
 		CAA5997A1D9D658800BB5DCD /* Depart-infoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Depart-infoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA5997E1D9D658800BB5DCD /* Depart_infoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Depart_infoUITests.m; sourceTree = "<group>"; };
 		CAA599801D9D658800BB5DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA5998C1D9D65D900BB5DCD /* EventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCell.h; sourceTree = "<group>"; };
+		CAA5998D1D9D65D900BB5DCD /* EventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCell.m; sourceTree = "<group>"; };
+		CAA5998E1D9D65D900BB5DCD /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		CAA599911D9D66D200BB5DCD /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		CAA599921D9D66D200BB5DCD /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		CAA599931D9D66D200BB5DCD /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA18E7D41DA548C2002583F0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CA18E7D51DA548D0002583F0 /* isetan_shinjuku.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		CAA5994A1D9D658700BB5DCD = {
 			isa = PBXGroup;
 			children = (
@@ -110,10 +129,15 @@
 				CAA5995D1D9D658800BB5DCD /* FirstViewController.m */,
 				CAA5995F1D9D658800BB5DCD /* SecondViewController.h */,
 				CAA599601D9D658800BB5DCD /* SecondViewController.m */,
+				CAA5998C1D9D65D900BB5DCD /* EventCell.h */,
+				CAA5998D1D9D65D900BB5DCD /* EventCell.m */,
+				CAA5998E1D9D65D900BB5DCD /* EventCell.xib */,
 				CAA599621D9D658800BB5DCD /* Main.storyboard */,
+				CA18E7D41DA548C2002583F0 /* images */,
 				CAA599651D9D658800BB5DCD /* Assets.xcassets */,
 				CAA599671D9D658800BB5DCD /* LaunchScreen.storyboard */,
 				CAA5996A1D9D658800BB5DCD /* Info.plist */,
+				CAA599951D9D66DD00BB5DCD /* lib */,
 				CAA599561D9D658800BB5DCD /* Supporting Files */,
 			);
 			path = "Depart-info";
@@ -143,6 +167,16 @@
 				CAA599801D9D658800BB5DCD /* Info.plist */,
 			);
 			path = "Depart-infoUITests";
+			sourceTree = "<group>";
+		};
+		CAA599951D9D66DD00BB5DCD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CAA599911D9D66D200BB5DCD /* GTMDefines.h */,
+				CAA599921D9D66D200BB5DCD /* GTMNSString+HTML.h */,
+				CAA599931D9D66D200BB5DCD /* GTMNSString+HTML.m */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,11 +241,12 @@
 		CAA5994B1D9D658700BB5DCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "濱田裕史";
 				TargetAttributes = {
 					CAA599521D9D658700BB5DCD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XVBVU8RGG5;
 					};
 					CAA5996E1D9D658800BB5DCD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -248,7 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA599901D9D65D900BB5DCD /* EventCell.xib in Resources */,
 				CAA599691D9D658800BB5DCD /* LaunchScreen.storyboard in Resources */,
+				CA18E7D61DA548D0002583F0 /* isetan_shinjuku.jpg in Resources */,
 				CAA599661D9D658800BB5DCD /* Assets.xcassets in Resources */,
 				CAA599641D9D658800BB5DCD /* Main.storyboard in Resources */,
 			);
@@ -276,9 +313,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAA599611D9D658800BB5DCD /* SecondViewController.m in Sources */,
+				CAA5998F1D9D65D900BB5DCD /* EventCell.m in Sources */,
 				CAA5995B1D9D658800BB5DCD /* AppDelegate.m in Sources */,
 				CAA5995E1D9D658800BB5DCD /* FirstViewController.m in Sources */,
 				CAA599581D9D658800BB5DCD /* main.m in Sources */,
+				CAA599941D9D66D200BB5DCD /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +386,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -391,8 +432,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -419,10 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Depart-info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.depart-info.Depart-info";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -430,10 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Depart-info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.depart-info.Depart-info";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -502,6 +551,7 @@
 				CAA599851D9D658800BB5DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAA599861D9D658800BB5DCD /* Build configuration list for PBXNativeTarget "Depart-infoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +560,7 @@
 				CAA599881D9D658800BB5DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAA599891D9D658800BB5DCD /* Build configuration list for PBXNativeTarget "Depart-infoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +569,7 @@
 				CAA5998B1D9D658800BB5DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
